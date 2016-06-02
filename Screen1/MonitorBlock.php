@@ -20,7 +20,7 @@ $MonitorBlock = array(
          'CodeName' => 'PM-101',
          'NumDanger'=> 2,
          'NumRisk'=> 2,
-         'Parameter'=> 
+         'Parameter'=>[ 
             ['Id'=> 1,
              'Name' => 'pH',
              'Code' => 'PH',
@@ -56,13 +56,14 @@ $MonitorBlock = array(
              'Unit' => 'uS',
              'LastValue' => 5
             ]
+            ]
         ],
         ['Id'=> 2,
          'Name' => 'Tanque Reactor',
          'CodeName' => 'PM-102',
          'NumDanger'=> 0,
          'NumRisk'=> 0,
-         'Parameter'=> 
+         'Parameter'=> [
             ['Id'=> 1,
              'Name' => 'pH',
              'Code' => 'PH',
@@ -77,13 +78,14 @@ $MonitorBlock = array(
              'Unit' => 'oC',
              'LastValue' => 23.44
             ]
+            ]
         ],
         ['Id'=> 3,
          'Name' => 'Filtro Arena',
          'CodeName' => 'PM-103',
          'NumDanger'=> 0,
          'NumRisk'=> 0,
-         'Parameter'=> 
+         'Parameter'=> [
             ['Id'=> 1,
              'Name' => 'pH',
              'Code' => 'PH',
@@ -112,13 +114,14 @@ $MonitorBlock = array(
              'Unit' => 'uS',
              'LastValue' => 3.1
             ]
+            ]
         ],
         ['Id'=> 4,
          'Name' => 'Filtro de Carbon',
          'CodeName' => 'PM-103',
          'NumDanger'=> 0,
          'NumRisk'=> 0,
-         'Parameter'=> 
+         'Parameter'=> [
             ['Id'=> 1,
              'Name' => 'pH',
              'Code' => 'PH',
@@ -126,13 +129,14 @@ $MonitorBlock = array(
              'Unit' => '',
              'LastValue' => 7.45
             ]
+            ]
         ],
         ['Id'=> 5,
          'Name' => 'Filtro Pulidor',
          'CodeName' => 'PM-105',
          'NumDanger'=> 0,
          'NumRisk'=> 2,
-         'Parameter'=> 
+         'Parameter' => [ 
             ['Id'=> 1,
              'Name' => 'pH',
              'Code' => 'PH',
@@ -160,6 +164,7 @@ $MonitorBlock = array(
              'LMP' => 5,
              'Unit' => 'uS',
              'LastValue' => 3.8
+            ]
             ]
         ]
     ]
