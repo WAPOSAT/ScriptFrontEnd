@@ -1,5 +1,12 @@
 <?php
-// Static Info to Load Screen 1
+/*
+Static Info to Load Screen 1
+
+*** PARAMETERS REQUIRED: ***
+
+    
+*/
+
 
 $StaticInfo = array(
     'HiUser' => 'Hola Emilio',

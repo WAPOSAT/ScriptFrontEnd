@@ -9,7 +9,7 @@ Parameters required:
 
 $MonitorBlock = array(
     'Id' => 1,
-    'RefreshFrecuencySeg' => 4,
+    'RefreshFrequencySeg' => 4,
     // Information about the MonitorPoints on the MonitorBlock
     'MonitorPoint' => [
         ['Id'=> 1,

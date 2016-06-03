@@ -2,7 +2,7 @@
 /*
 First load of information about specific MonitorBlock, it include Static and Dynamic information
 
-Parameters required:
+*** PARAMETERS REQUIRED: ***
     $MonitorBlock.Id = Identification number of the MonitorBlock
     
 */
@@ -12,7 +12,7 @@ $MonitorBlock = array(
     'Name' => 'Planta de Purificacion de Agua',
     'Hi' => 'Estas en la Planta de Purificacion de Agua - Bloque 101 -',
     'CodeName' => 'Bloque-101',
-    'RefreshFrecuencySeg' => 3,
+    'RefreshFrequencySeg' => 3,
     // Information about the MonitorPoints on the MonitorBlock
     'MonitorPoint' => [
         ['Id'=> 1,
