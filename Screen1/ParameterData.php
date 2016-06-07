@@ -13,6 +13,7 @@ $ParameterData = array(
     'IdMonitorPoint' => 1,
     'Name' => 'Cloro Residual',
     'Code' => 'CR',
+    'MP' => 20,
     'LMP' => 5,
     'LMR' => 7.5,
     'Unit' => 'ppm',
