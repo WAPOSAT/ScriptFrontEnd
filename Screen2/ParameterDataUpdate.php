@@ -11,11 +11,14 @@ Every time when the parameter reload information will get this Object, it only c
 $ParameterData = array(
     'Id'=> 3,
     'IdMonitorPoint' => 1,
-    'LastValue' => 7.3,
-    'long' => 2,
+    'Long' => 2,
     'RefreshFrequencySeg' => 3,
-    'LastID' => 4563,
-    // Historical data of the Parameter on the MonitorPoint
+    'Last' => [
+        'Id' => 423,
+        'Value' => 6.9,
+        'Date' => '2016-05-05 18:02:25',
+        ],
+    // Is possible that in a new reload would be more than one new measurement, so it’s necessary to receive all the new measurements
     'Data' => [
         'Time' => ['12:30', '12:31'],
         'Value' => [7.1, 7.2]

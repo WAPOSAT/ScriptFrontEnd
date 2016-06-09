@@ -5,7 +5,7 @@ First load of hitorical data of a specific Parameter on a MonitorPoint, it inclu
 *** PARAMETERS REQUIRED: ***
     $MonitorPoint.Id = Identification number of the MonitorPoint
     $Parameter.Id = Identification number of the MonitorPoint
-    $size = how many values should show the parameter data (Default: 20)
+    $Long = how many values should show the parameter data (Default: 20)
 */
 
 $ParameterData = array(
@@ -21,7 +21,7 @@ $ParameterData = array(
     'MaxValue' => 7.6,
     'MeanValue' => 7.5,
     'LastValue' => 7.3,
-    'long' => 20,
+    'Long' => 20,
     'RefreshFrequencySeg' => 3,
     'LastID' => 4560,
     // Historical data of the Parameter on the MonitorPoint
