@@ -14,7 +14,7 @@ $MonitorPoint = array(
     'RefreshFrequencySeg' => 3,
     // Information about the Parameters on the MonitorPoint
     'Parameter' => [ 
-        ['Id'=> 1,
+        ['Id'=> 5,
          'LastValue' => 7.3
         ],
         ['Id'=> 2,
@@ -26,7 +26,7 @@ $MonitorPoint = array(
         ['Id'=> 4,
          'LastValue' => 2.5
         ],
-        ['Id'=> 5,
+        ['Id'=> 1,
          'LastValue' => 5
         ]
     ]
